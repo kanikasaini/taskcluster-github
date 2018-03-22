@@ -97,8 +97,7 @@ tasks:
           - master
 ```
 
-If a branch is present in both, `task.extra.github.branches` is given preference over `task.extra.github.excludeBranches`.
-Branch filtering doesn't work for releases.
+You may not include the same branch name in both `branches` and `excludeBranches`. This will throw an error.
 
 ### Roles
 
